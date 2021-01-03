@@ -1,0 +1,269 @@
+/*---Common Style---*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+}
+a, a:hover{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+    border: none;
+}
+ol,ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,.navbar{
+    margin: 0;
+    padding: 0;
+}
+body{
+   font-family: 'Lato',sans-serif;
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999
+}
+/*---Common Style---*/
+
+/*---Start Navigation---*/
+.navigation{
+    padding: 12px 0px;
+}
+.main-nav .nav-item .nav-link{
+   color: #222222;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;   
+}
+.main-nav .nav-item .nav-link:hover{
+    color: #000000;
+    font-weight: 300; 
+}
+
+/*---End Navigation---*/
+
+
+/*---Start Slider---*/
+.slider{
+    background: url('../img/header-banner.jpg') no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.slider-content{
+    text-align: center;
+}
+.slider-content h5{
+    color: #fff;
+    font-size:24px;
+}
+.slider-content h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin: 12px 0px;
+}
+
+.slider-content h1::after{
+    content: "";
+    display: block;
+    background: #15a4fa;
+    width: 450px;
+    height: 1px;
+    margin: 0 auto;
+   
+}
+.slider-content p{
+    color:#fff;
+    font-family: 'lato';
+    font-weight: 400;
+    font-size: 20px;
+}
+.slider-content a{
+    background: transparent;
+    padding: 15px 55px;
+    display: inline-block;
+    margin-top: 55px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid #15a4fa;
+    transition: .5s;
+}
+.slider-content a:hover{
+    background: #15a4fa;
+}
+.icont{
+   text-align: center;
+}
+
+.slider .icont i{
+   color: #fff;
+   
+}
+/*---End Slider---*/
+
+/*---Start about section---*/
+.about{
+    padding: 60px 0px;
+    text-align: center;
+    background: #f6f9f9;
+}
+.about h2{
+    font-weight: 500;
+    font-size: 25px;
+    color:#000000;
+    text-transform: capitalize;
+    font-family: 'Lato',sans-serif;
+}
+.about p {
+    color: #999999;
+    font-size: 15px;
+}
+.about p{
+    margin: 15px 0px;
+}
+.about span{
+    font-size: 25px;
+    font-weight: 700;
+}
+.sub-about{
+    padding: 50px 0px;
+}
+.about-sub i{
+    color:#FFF;
+    font-size: 35px;
+    background: linear-gradient(to left, #48baff 50%, #5fc3ff 50%);
+    padding: 25px 25px;
+}
+.about-sub h4{
+    margin: 20px 0px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 22px;
+    
+}
+
+.sub-about{
+    text-align: center;
+}
+/*---Start Design section---*/
+
+/*---Start Gallery section---*/
+
+
+
+
+/*---Start Gallery section---*/
+
+.gallery{
+    padding: 70px 0px;
+    background: #f6f9f9;
+    text-align: center;
+}
+.gallery h2{
+    font-size: 41px;
+    font-weight: 400;
+    color: #2d3950;
+    font-family: 'Lato',sans-serif;
+}
+.gallery p{
+    margin: 25px; 
+}
+
+gallary-pro{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    background: rgba(44, 171, 247, 0.69);
+    top:0;
+    width: 92.33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .5s ease;
+  
+}
+.overlay:hover {
+    opacity: 1;
+    
+}
+.overlay-content a{
+    color: #fff;
+    margin-right: 10px;
+    background: transparent;
+    padding: 20px 20px;
+    border:1px solid #fff;
+}
+
+/*End gallary section/*
+
+/*---start form section---*/
+.form-section{
+    text-align: center;
+    padding: 70px 0px;
+    background: #2d3950;
+}
+
+.form-section .gallary-content h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+.form-section .gallary-content p{
+    margin: 30px 0px;
+}
+.form-group input{
+    height: 50px; 
+}
+.cust input, .cust textarea{
+    background: transparent;
+    border-radius: 5px;
+    
+}
+.cust input:focus, 
+.cust textarea:focus{
+    background: transparent;
+    
+    
+}
+.jhamela{
+   background: transparent;
+    padding: 8px 50px;
+    float: right;
+    border-radius: 5px;
+}
+.jhamela:hover{
+    background: #15a4fa;
+    transition: 0.5s;
+}
+.cheack-me{
+    float: left;
+    margin: -10px 0px;
+    margin-left: -20px;
+}
+.cheack-me label{
+    margin-top: 17px;
+    color: #ffffff !important;
+}
+.footer-section a{
+  color: #ffffff; 
+    background: #15a4fa;
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 16px;
+}
+h6{
+    color: #acacac;
+}
